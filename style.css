@@ -1,0 +1,247 @@
+*
+{
+    margin: 0;
+    padding: 0;   
+
+}
+.divlogo{
+display: flex;
+align-items: center;
+justify-items: center; 
+margin-left: 32%;
+padding-top: 3%;
+
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 45%;
+    list-style-type: none;
+margin-left:28%;
+padding-top:2%;
+}
+
+.navbar {
+ 
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #0e0d0d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: rgb(17, 16, 16);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #111111;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.Firstsec h6{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    margin-left: 47%;
+    padding-top: 2%;
+    font-size: 15px;
+
+}
+.Firstsec h5{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin-left:41%;
+    font-size: 13px;
+
+}
+.Firstsec h1{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+        margin-left:30%;
+    padding-top: 1%;
+
+}
+.Firstsec img{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom:2%;
+   margin-top: 2%;
+   margin-left:20%;
+
+
+}
+.mid-div img{
+    margin-left:5%
+}
+
+
+
+.mid-div h1{ 
+text-align:left;
+margin-left:5px;
+
+}
+.mid-div{
+    
+        display:grid;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      margin-left:18%;
+     width:60%;
+     
+      
+}
+.mid-div span{
+ text-decoration: #dc143c;
+}
+
+.mid-div li{
+    margin-left: 5%;
+}
+
+.mid-div p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.social-icons {
+    padding: 0;
+    text-align: right;
+    margin-left: 70%;
+
+}
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.social-icons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.social-icons h5{
+    text-align:right;}
+
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        padding: 20px;
+        background-color: hsl(0, 3%, 27%); 
+    }
+    
+    .footer-container img {
+        margin-bottom: 10px;
+        margin-left:5%;
+    }
+    
+    .footer-container h5 {
+        margin-bottom: 10px;
+        margin-left:5%;
+    }
+    
+    .footer-container .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .footer-container .social-media a {
+        text-decoration: none;
+        color: #000; 
+    }
+
+    .container {
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    .card {
+        width: 10rem;
+        margin: 10px;
+        text-align: center;
+        border: 1px solid #ddd; 
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+    .card h3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .card-body {
+        padding: 10px;
+    }
+
