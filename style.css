@@ -208,24 +208,24 @@ margin-left:5px;
 }
 
 .footer-container a {
-    color: #007bff; /* Blue color for the links */
-    text-decoration: none; /* Remove underline from links */
+    color: #007bff;
+    text-decoration: none; 
 }
 
 .footer-container a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
 
 .social-media {
-    margin-top: 15px; /* Space above the social media icons */
+    margin-top: 15px;
 }
 
 .social-media a {
-    margin: 0 10px; /* Space between the social media icons */
-    color: #333; /* Icon color */
-    font-size: 24px; /* Size of the icons */
+    margin: 0 10px; 
+    color: #333; 
+    font-size: 24px;
 }
 
 .social-media a:hover {
-    color: #007bff; /* Change color on hover */
+    color: #007bff;
 }
